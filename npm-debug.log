@@ -1,0 +1,309 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'posh-git' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData posh-git
+8 silly fetchNamedPackageData posh-git
+9 silly mapToRegistry name posh-git
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/posh-git
+13 verbose request uri https://registry.npmjs.org/posh-git
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 4:53:00 PM
+16 verbose request id 8df89125f0629dc5
+17 verbose etag W/"55998e7a-299b"
+18 verbose lastModified Sun, 05 Jul 2015 20:07:22 GMT
+19 http request GET https://registry.npmjs.org/posh-git
+20 http 304 https://registry.npmjs.org/posh-git
+21 verbose headers { date: 'Thu, 16 Nov 2017 16:53:00 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: 'W/"55998e7a-299b"',
+21 verbose headers   age: '285',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1510851181.637378,VS0,VE1',
+21 verbose headers   vary: 'Accept-Encoding, Accept' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Thu, 16 Nov 2017 16:53:00 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: 'W/"55998e7a-299b"',
+22 silly get     age: '285',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-lhr6328-LHR',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1510851181.637378,VS0,VE1',
+22 silly get     vary: 'Accept-Encoding, Accept' } ]
+23 verbose etag https://registry.npmjs.org/posh-git from cache
+24 verbose get saving posh-git to /home/ubuntu/.npm/registry.npmjs.org/posh-git/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule posh-git@0.0.9 checking installable status
+38 silly cache add args [ 'posh-git', null ]
+39 verbose cache add spec posh-git
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'posh-git',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'posh-git',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed posh-git@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for posh-git
+43 info addNameTag [ 'posh-git', 'latest' ]
+44 silly mapToRegistry name posh-git
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/posh-git
+48 verbose addNameTag registry:https://registry.npmjs.org/posh-git not in flight; fetching
+49 verbose get https://registry.npmjs.org/posh-git not expired, no request
+50 silly addNameTag next cb for posh-git with tag latest
+51 silly addNamed posh-git@0.0.9
+52 verbose addNamed "0.0.9" is a plain semver version for posh-git
+53 silly cache afterAdd posh-git@0.0.9
+54 verbose afterAdd /home/ubuntu/.npm/posh-git/0.0.9/package/package.json not in flight; writing
+55 verbose afterAdd /home/ubuntu/.npm/posh-git/0.0.9/package/package.json written
+56 silly fetchNamedPackageData colors
+57 silly mapToRegistry name colors
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/colors
+61 silly fetchNamedPackageData commander
+62 silly mapToRegistry name commander
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/commander
+66 verbose request uri https://registry.npmjs.org/colors
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 4:53:00 PM
+69 verbose etag W/"5a0d6d22-5b35"
+70 verbose lastModified Thu, 16 Nov 2017 10:49:06 GMT
+71 http request GET https://registry.npmjs.org/colors
+72 verbose request uri https://registry.npmjs.org/commander
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 4:53:00 PM
+75 verbose etag W/"5a0d796d-11a14"
+76 verbose lastModified Thu, 16 Nov 2017 11:41:33 GMT
+77 http request GET https://registry.npmjs.org/commander
+78 http 304 https://registry.npmjs.org/colors
+79 verbose headers { date: 'Thu, 16 Nov 2017 16:53:00 GMT',
+79 verbose headers   via: '1.1 varnish',
+79 verbose headers   'cache-control': 'max-age=300',
+79 verbose headers   etag: 'W/"5a0d6d22-5b35"',
+79 verbose headers   age: '150',
+79 verbose headers   connection: 'keep-alive',
+79 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+79 verbose headers   'x-cache': 'HIT',
+79 verbose headers   'x-cache-hits': '6',
+79 verbose headers   'x-timer': 'S1510851181.778290,VS0,VE0',
+79 verbose headers   vary: 'Accept-Encoding, Accept' }
+80 silly get cb [ 304,
+80 silly get   { date: 'Thu, 16 Nov 2017 16:53:00 GMT',
+80 silly get     via: '1.1 varnish',
+80 silly get     'cache-control': 'max-age=300',
+80 silly get     etag: 'W/"5a0d6d22-5b35"',
+80 silly get     age: '150',
+80 silly get     connection: 'keep-alive',
+80 silly get     'x-served-by': 'cache-lhr6332-LHR',
+80 silly get     'x-cache': 'HIT',
+80 silly get     'x-cache-hits': '6',
+80 silly get     'x-timer': 'S1510851181.778290,VS0,VE0',
+80 silly get     vary: 'Accept-Encoding, Accept' } ]
+81 verbose etag https://registry.npmjs.org/colors from cache
+82 verbose get saving colors to /home/ubuntu/.npm/registry.npmjs.org/colors/.cache.json
+83 http 304 https://registry.npmjs.org/commander
+84 verbose headers { date: 'Thu, 16 Nov 2017 16:53:00 GMT',
+84 verbose headers   via: '1.1 varnish',
+84 verbose headers   'cache-control': 'max-age=300',
+84 verbose headers   etag: 'W/"5a0d796d-11a14"',
+84 verbose headers   age: '29',
+84 verbose headers   connection: 'keep-alive',
+84 verbose headers   'x-served-by': 'cache-lhr6331-LHR',
+84 verbose headers   'x-cache': 'HIT',
+84 verbose headers   'x-cache-hits': '2',
+84 verbose headers   'x-timer': 'S1510851181.782175,VS0,VE0',
+84 verbose headers   vary: 'Accept-Encoding, Accept' }
+85 silly get cb [ 304,
+85 silly get   { date: 'Thu, 16 Nov 2017 16:53:00 GMT',
+85 silly get     via: '1.1 varnish',
+85 silly get     'cache-control': 'max-age=300',
+85 silly get     etag: 'W/"5a0d796d-11a14"',
+85 silly get     age: '29',
+85 silly get     connection: 'keep-alive',
+85 silly get     'x-served-by': 'cache-lhr6331-LHR',
+85 silly get     'x-cache': 'HIT',
+85 silly get     'x-cache-hits': '2',
+85 silly get     'x-timer': 'S1510851181.782175,VS0,VE0',
+85 silly get     vary: 'Accept-Encoding, Accept' } ]
+86 verbose etag https://registry.npmjs.org/commander from cache
+87 verbose get saving commander to /home/ubuntu/.npm/registry.npmjs.org/commander/.cache.json
+88 silly resolveWithNewModule colors@1.1.2 checking installable status
+89 silly cache add args [ 'colors@^1.1.2', null ]
+90 verbose cache add spec colors@^1.1.2
+91 silly cache add parsed spec Result {
+91 silly cache add   raw: 'colors@^1.1.2',
+91 silly cache add   scope: null,
+91 silly cache add   name: 'colors',
+91 silly cache add   rawSpec: '^1.1.2',
+91 silly cache add   spec: '>=1.1.2 <2.0.0',
+91 silly cache add   type: 'range' }
+92 silly addNamed colors@>=1.1.2 <2.0.0
+93 verbose addNamed ">=1.1.2 <2.0.0" is a valid semver range for colors
+94 silly addNameRange { name: 'colors', range: '>=1.1.2 <2.0.0', hasData: false }
+95 silly mapToRegistry name colors
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npmjs.org/
+98 silly mapToRegistry uri https://registry.npmjs.org/colors
+99 verbose addNameRange registry:https://registry.npmjs.org/colors not in flight; fetching
+100 silly resolveWithNewModule commander@2.11.0 checking installable status
+101 silly cache add args [ 'commander@^2.8.1', null ]
+102 verbose cache add spec commander@^2.8.1
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'commander@^2.8.1',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'commander',
+103 silly cache add   rawSpec: '^2.8.1',
+103 silly cache add   spec: '>=2.8.1 <3.0.0',
+103 silly cache add   type: 'range' }
+104 silly addNamed commander@>=2.8.1 <3.0.0
+105 verbose addNamed ">=2.8.1 <3.0.0" is a valid semver range for commander
+106 silly addNameRange { name: 'commander', range: '>=2.8.1 <3.0.0', hasData: false }
+107 silly mapToRegistry name commander
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/commander
+111 verbose addNameRange registry:https://registry.npmjs.org/commander not in flight; fetching
+112 verbose get https://registry.npmjs.org/colors not expired, no request
+113 silly addNameRange number 2 { name: 'colors', range: '>=1.1.2 <2.0.0', hasData: true }
+114 silly addNameRange versions [ 'colors',
+114 silly addNameRange   [ '0.3.0',
+114 silly addNameRange     '0.5.0',
+114 silly addNameRange     '0.5.1',
+114 silly addNameRange     '0.6.0',
+114 silly addNameRange     '0.6.0-1',
+114 silly addNameRange     '0.6.1',
+114 silly addNameRange     '0.6.2',
+114 silly addNameRange     '1.0.0',
+114 silly addNameRange     '1.0.1',
+114 silly addNameRange     '1.0.2',
+114 silly addNameRange     '1.0.3',
+114 silly addNameRange     '1.1.0',
+114 silly addNameRange     '1.1.1',
+114 silly addNameRange     '1.1.2' ] ]
+115 silly addNamed colors@1.1.2
+116 verbose addNamed "1.1.2" is a plain semver version for colors
+117 verbose get https://registry.npmjs.org/commander not expired, no request
+118 silly addNameRange number 2 { name: 'commander', range: '>=2.8.1 <3.0.0', hasData: true }
+119 silly addNameRange versions [ 'commander',
+119 silly addNameRange   [ '0.0.1',
+119 silly addNameRange     '0.0.3',
+119 silly addNameRange     '0.0.4',
+119 silly addNameRange     '0.0.5',
+119 silly addNameRange     '0.1.0',
+119 silly addNameRange     '0.2.0',
+119 silly addNameRange     '0.2.1',
+119 silly addNameRange     '0.3.0',
+119 silly addNameRange     '0.3.1',
+119 silly addNameRange     '0.3.2',
+119 silly addNameRange     '0.3.3',
+119 silly addNameRange     '0.4.0',
+119 silly addNameRange     '0.4.1',
+119 silly addNameRange     '0.4.2',
+119 silly addNameRange     '0.4.3',
+119 silly addNameRange     '0.5.0',
+119 silly addNameRange     '0.5.1',
+119 silly addNameRange     '0.6.0',
+119 silly addNameRange     '0.6.1',
+119 silly addNameRange     '0.5.2',
+119 silly addNameRange     '1.0.0',
+119 silly addNameRange     '1.0.1',
+119 silly addNameRange     '1.0.2',
+119 silly addNameRange     '1.0.3',
+119 silly addNameRange     '1.0.4',
+119 silly addNameRange     '1.0.5',
+119 silly addNameRange     '1.1.0',
+119 silly addNameRange     '1.1.1',
+119 silly addNameRange     '1.2.0',
+119 silly addNameRange     '1.3.0',
+119 silly addNameRange     '1.3.1',
+119 silly addNameRange     '1.3.2',
+119 silly addNameRange     '2.0.0',
+119 silly addNameRange     '2.1.0',
+119 silly addNameRange     '2.2.0',
+119 silly addNameRange     '2.3.0',
+119 silly addNameRange     '2.4.0',
+119 silly addNameRange     '2.5.0',
+119 silly addNameRange     '2.5.1',
+119 silly addNameRange     '2.6.0',
+119 silly addNameRange     '2.7.0',
+119 silly addNameRange     '2.7.1',
+119 silly addNameRange     '2.8.0',
+119 silly addNameRange     '2.8.1',
+119 silly addNameRange     '2.9.0',
+119 silly addNameRange     '2.10.0',
+119 silly addNameRange     '2.11.0' ] ]
+120 silly addNamed commander@2.11.0
+121 verbose addNamed "2.11.0" is a plain semver version for commander
+122 silly cache afterAdd colors@1.1.2
+123 verbose afterAdd /home/ubuntu/.npm/colors/1.1.2/package/package.json not in flight; writing
+124 silly cache afterAdd commander@2.11.0
+125 verbose afterAdd /home/ubuntu/.npm/commander/2.11.0/package/package.json not in flight; writing
+126 verbose afterAdd /home/ubuntu/.npm/colors/1.1.2/package/package.json written
+127 verbose afterAdd /home/ubuntu/.npm/commander/2.11.0/package/package.json written
+128 silly loadAllDepsIntoIdealTree Finishing
+129 silly idealTree:prePrune lib
+129 silly idealTree:prePrune └─┬ posh-git@0.0.9
+129 silly idealTree:prePrune   ├── colors@1.1.2
+129 silly idealTree:prePrune   └── commander@2.11.0
+130 silly loadIdealTree Finishing
+131 silly currentTree lib
+132 silly idealTree lib
+132 silly idealTree └─┬ posh-git@0.0.9
+132 silly idealTree   ├── colors@1.1.2
+132 silly idealTree   └── commander@2.11.0
+133 silly generateActionsToTake Starting
+134 silly install generateActionsToTake
+135 warn checkPermissions Missing write access to /usr/local/lib
+136 silly rollbackFailedOptional Starting
+137 silly rollbackFailedOptional Finishing
+138 silly runTopLevelLifecycles Starting
+139 silly runTopLevelLifecycles Finishing
+140 silly install printInstalled
+141 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+141 verbose stack     at Error (native)
+142 verbose cwd /home/ubuntu/projects/docker_tutorial
+143 error Linux 4.4.0-1038-aws
+144 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "posh-git"
+145 error node v4.2.6
+146 error npm  v3.5.2
+147 error path /usr/local/lib
+148 error code EACCES
+149 error errno -13
+150 error syscall access
+151 error Error: EACCES: permission denied, access '/usr/local/lib'
+151 error     at Error (native)
+151 error  { [Error: EACCES: permission denied, access '/usr/local/lib']
+151 error   errno: -13,
+151 error   code: 'EACCES',
+151 error   syscall: 'access',
+151 error   path: '/usr/local/lib' }
+152 error Please try running this command again as root/Administrator.
+153 verbose exit [ -13, true ]
